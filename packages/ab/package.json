@@ -1,13 +1,13 @@
 {
   "name": "@kalyanov/ab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "ISC",
   "main": "dist/index.js",
   "files": [
     "dist/index.js"
   ],
   "dependencies": {
-    "@kalyanov/a": "1.0.0"
+    "@kalyanov/a": "^1.0.1"
   },
   "scripts": {
     "build": "rm -rf dist && mkdir dist && cp lib.js dist/index.js",
