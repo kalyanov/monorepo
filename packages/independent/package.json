@@ -2,7 +2,7 @@
   "name": "@kalyanov/independent",
   "version": "1.0.0",
   "license": "ISC",
-  "main": "lib.js",
+  "main": "dist/index.js",
   "files": [
     "dist/index.js"
   ],
