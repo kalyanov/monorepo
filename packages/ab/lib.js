@@ -3,7 +3,7 @@
 const a = require("@kalyanov/a");
 
 function ab() {
-    return `${a()}-b`
+    return `${a()}-bb`
 }
 
 module.exports = ab;
