@@ -1,0 +1,17 @@
+{
+  "name": "@kalyanov/ab",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "lib.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "dependencies": {
+    "@kalyanov/a": "1.0.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp lib.js dist/index.js",
+    "demo": "node demo.js",
+    "clean": "rm -rf node_modules && rm -rf dist"
+  }
+}
